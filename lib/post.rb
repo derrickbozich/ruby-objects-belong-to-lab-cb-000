@@ -14,4 +14,6 @@ class Author
   end
 end
 
-
+after_dark = Post.new("After Dark")
+haruki_murakami = Author.new("Haruki Murakami")
+after_dark.author = haruki_murakami
